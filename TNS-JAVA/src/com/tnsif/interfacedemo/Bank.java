@@ -1,0 +1,7 @@
+package com.tnsif.interfacedemo;
+
+public abstract class Bank {
+	double DEPOSIT_LIMIT=25000;
+abstract void withdraw(double amount);
+ abstract void deposit(double amount);
+}
